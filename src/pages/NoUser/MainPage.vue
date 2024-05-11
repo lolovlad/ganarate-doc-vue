@@ -3,13 +3,15 @@
   <router-view>
 
   </router-view>
+  <BaseFooter/>
 </template>
 
 <script>
 import BaseHeader from "@/components/BaseHeader";
+import BaseFooter from "@/components/BaseFooter";
 export default {
   name: "MainPage",
-  components: {BaseHeader}
+  components: {BaseFooter, BaseHeader}
 }
 </script>
 

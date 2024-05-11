@@ -12,12 +12,17 @@ import CompanyPage from "@/pages/User/CompanyPage";
 import PackPage from "@/pages/User/PackPage";
 import CompanyFormPage from "@/pages/User/CompanyFormPage";
 import PrefabsFormPage from "@/pages/Admin/PrefabsFormPage";
+import BasePage from "@/pages/BasePage";
 
 const routes = [
     {
         path: '/',
         component: MainPage,
         children: [
+            {
+              path: "",
+              component: BasePage
+            },
             {
                 path: "sign-in",
                 component: LoginPage
@@ -45,6 +50,10 @@ const routes = [
         path: '/admin',
         component: MainAdminPage,
         children: [
+            {
+                path: "",
+                component: BasePage
+            },
             {
                 path: "prefabs",
                 component: PrefabsPage
@@ -76,6 +85,10 @@ const routes = [
         path: '/user',
         component: MainUserPage,
         children: [
+            {
+                path: "",
+                component: BasePage
+            },
             {
                 path: "companies",
                 component: CompanyPage

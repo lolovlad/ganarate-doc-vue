@@ -2,7 +2,7 @@
   <nav>
       <div class="nav-wrapper red darken-4">
         <div class="container">
-          <a href="#" class="brand-logo">Админ панель</a>
+          <a href="#" class="brand-logo">DocuMatic Админ панель</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a @click="$router.push(`/admin/prefabs/`)">Шаблоны</a></li>
             <li><a class="dropdown-trigger" data-target="dropdownProfile" ref="dropdownProfile">Профиль</a></li>
