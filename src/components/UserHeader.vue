@@ -2,7 +2,7 @@
   <nav>
     <div class="nav-wrapper red darken-4">
       <div class="container">
-        <a href="#" class="brand-logo">DocuMatic</a>
+        <a href="#" class="brand-logo">DocuSec</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a @click="$router.push(`/user/companies/`)">Компании</a></li>
           <li><a @click="$router.push(`/user/create-pack/`)">Создать набор</a></li>

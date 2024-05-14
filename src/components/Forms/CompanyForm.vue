@@ -33,7 +33,7 @@
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input placeholder="Глава" type="text" v-model="company.supervisor">
+                <input placeholder="Генеральный директор" type="text" v-model="company.supervisor">
               </div>
             </div>
             <div class="row">
