@@ -36,21 +36,21 @@
                 <input placeholder="Генеральный директор" type="text" v-model="company.supervisor">
               </div>
             </div>
-            <div class="row">
+            <!--<div class="row">
               <div class="input-field col s12">
                 <ComboBox
                     :data="publishedActivity"
                     v-model="company.id_main_activity"
                 />
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <FileInput
-                    ref="icon"
-                    v-model:data="icon"
-                />
-              </div>
+            </div>-->
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <FileInput
+                  ref="icon"
+                  v-model:data="icon"
+              />
             </div>
           </div>
           <div class="row">
