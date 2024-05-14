@@ -60,7 +60,7 @@
             <div class="input-field col s4">
               <input placeholder="ИНН" type="text" v-model="company.inn">
             </div>
-            <div v-if="keysTypeOrganization[company.id_type_organizations].name === 'IP'">
+            <div v-if="keysTypeOrganization[company.id_type_organizations].name !== 'IP'">
               <div class="input-field col s4">
                 <input placeholder="КПП" type="text" v-model="company.kpp">
               </div>
