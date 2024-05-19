@@ -3,7 +3,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center white-text text-lighten-2">DocuMatic</h1>
+        <h1 class="header center white-text text-lighten-2">DocuSec</h1>
         <div class="row center">
           <h5 class="header col s12 light white-text">"DocuSec - упрощенное и автоматизированное создание документов по информационной безопасности"</h5>
         </div>
